@@ -1,4 +1,6 @@
-1. extract and open build
-2. open ui.exe
-3. dotnet 6 required ---> https://dotnet.microsoft.com/en-us/download/dotnet/6.0
-NOTE: workspace is not the actual workspace, its only for scripts.
+1. open ui_0.0.1_x64-setup
+   
+NOTE: workspace is not the actual workspace, its only for scripts. Also if you're building the ui use
+
+npm install --save-dev @tauri-apps/cli@^2
+npx tauri build
